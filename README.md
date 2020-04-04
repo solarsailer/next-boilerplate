@@ -9,3 +9,12 @@ Uses:
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
+
+Features:
+
+- Light and dark theme, customizable with CSS variables
+- Lightweight reset
+- Border-box by default
+- Typographic rhythm
+- Body and heading font options
+- `em` and `rem` units for consistent and adjustable spacings (`rem`) and font-sizes (`em`)
