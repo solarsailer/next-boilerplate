@@ -15,6 +15,5 @@ Boilerplate for a Next.js + styled-components website.
 - Light and dark theme, customizable with CSS variables
 - Lightweight reset
 - Border-box by default
-- Typographic rhythm (10px by default)
+- Typographic rhythm (10px by default), through `em` and `rem` units for consistent and adjustable spacings (`rem`) and font-sizes (`em`)
 - Body and heading font options
-- `em` and `rem` units for consistent and adjustable spacings (`rem`) and font-sizes (`em`)
