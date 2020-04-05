@@ -13,12 +13,12 @@ const theme = {}
 // App.
 // -------------------------------------------------------------
 
-export default function App({Component, props}) {
+export default function App({Component, pageProps}) {
   return (
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
-        <Component {...props} />
+        <Component {...pageProps} />
       </>
     </ThemeProvider>
   )
