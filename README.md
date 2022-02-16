@@ -17,3 +17,8 @@ Boilerplate for a Next.js + styled-components website.
 - Border-box by default
 - Typographic rhythm (10px by default), through `em` and `rem` units for consistent and adjustable spacings (`rem`) and font-sizes (`em`)
 - Body and heading font options
+
+**Optionals:**
+
+- [Lodash](https://lodash.com/)
+- [date-fns](https://date-fns.org/)
