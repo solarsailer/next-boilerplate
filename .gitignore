@@ -15,7 +15,7 @@
 .project
 .settings
 .tmproj
-.env
+.env*
 *.sass-cache
 nbproject
 Thumbs.db
