@@ -45,4 +45,17 @@ export default css`
   /**
    * App.
    */
+
+  a {
+    color: var(--color-accent);
+  }
+
+  a:hover {
+    /* Hint: use lighter color. */
+  }
+
+  a:active,
+  a:focus {
+    /* Hint: use darker color. */
+  }
 `
