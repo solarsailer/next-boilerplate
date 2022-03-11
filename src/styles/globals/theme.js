@@ -32,6 +32,16 @@ export default css`
     --typographic-rhythm: 62.5%;
     --typographic-size: 1.6em;
 
+    --w-thin: 100;
+    --w-extra-light: 200;
+    --w-light: 300;
+    --w-regular: 400;
+    --w-medium: 500;
+    --w-semi-bold: 600;
+    --w-bold: 700;
+    --w-extra-bold: 800;
+    --w-black: 900;
+
     --font-body-stack: Verdana, sans-serif;
     --font-body-line-height: 1.4;
     --font-heading-stack: Georgia, serif;
