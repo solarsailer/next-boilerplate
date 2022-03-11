@@ -35,7 +35,9 @@ export default css`
     --font-body-stack: Verdana, sans-serif;
     --font-body-line-height: 1.4;
     --font-heading-stack: Georgia, serif;
-    --font-heading-line-height: 1.4 ${lightTheme};
+    --font-heading-line-height: 1.4;
+
+    ${lightTheme};
   }
 
   /* 2. Check user preference. */
