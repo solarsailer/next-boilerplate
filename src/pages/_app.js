@@ -12,8 +12,7 @@ const theme = {}
 
 const title = 'Next Boilerplate'
 const author = 'Matthieu Oger'
-const description =
-  'A nicely-configured boilerplate for Next.js and styled-components.'
+const description = 'Boilerplate for a Next.js + styled-components.'
 const url = 'https://matthieuoger.com'
 
 const enableSearchEngineIndexing = false
