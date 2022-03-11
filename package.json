@@ -62,6 +62,10 @@
         "error",
         "never"
       ],
+      "multiline-ternary": [
+        "error",
+        "never"
+      ],
       "no-extra-boolean-cast": "off",
       "react-hooks/rules-of-hooks": "error",
       "react/display-name": "off",
