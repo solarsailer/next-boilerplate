@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <main role="main">
       <h1>Title</h1>
-      <p>Machin</p>
+      <p>Body</p>
     </main>
   )
 }
