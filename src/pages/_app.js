@@ -15,7 +15,8 @@ const author = 'Matthieu Oger'
 const description = 'Boilerplate for a Next.js + styled-components.'
 const url = 'https://matthieuoger.com'
 
-const enableSearchEngineIndexing = false
+// Set to `true` to make this website invisible to search engines.
+const disableSearchEngineIndexing = false
 
 // -------------------------------------------------------------
 // App.
@@ -27,7 +28,7 @@ export default function App({Component, pageProps}) {
       <Head>
         <title>{title}</title>
 
-        {enableSearchEngineIndexing && (
+        {disableSearchEngineIndexing && (
           <meta name="robots" content="noindex, nofollow" />
         )}
 
