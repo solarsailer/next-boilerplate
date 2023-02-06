@@ -1,6 +1,6 @@
 {
   "name": "next-boilerplate",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "Boilerplate for a Next.js + styled-components website.",
   "license": "MIT",
   "repository": "https://github.com/solarsailer/next-boilerplate",
@@ -12,7 +12,7 @@
     "start": "next -p 8000",
     "build": "next build",
     "prod": "next start -p 8000",
-    "test": "eslint ."
+    "lint": "next lint"
   },
   "babel": {
     "presets": [
@@ -26,51 +26,6 @@
         }
       ]
     ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "standard",
-      "plugin:react/recommended"
-    ],
-    "plugins": [
-      "react-hooks"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2020
-    },
-    "env": {
-      "browser": true,
-      "commonjs": true,
-      "node": true,
-      "es6": true
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    },
-    "rules": {
-      "space-before-function-paren": [
-        "error",
-        {
-          "anonymous": "never",
-          "named": "never",
-          "asyncArrow": "always"
-        }
-      ],
-      "object-curly-spacing": [
-        "error",
-        "never"
-      ],
-      "multiline-ternary": [
-        "error",
-        "never"
-      ],
-      "no-extra-boolean-cast": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "react/display-name": "off",
-      "react/prop-types": "off"
-    }
   },
   "prettier": {
     "semi": false,
@@ -89,12 +44,8 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7",
     "eslint": "^8.33.0",
+    "eslint-config-next": "^13.1.6",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.3"
   }
 }

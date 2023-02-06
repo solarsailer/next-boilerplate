@@ -15,7 +15,7 @@ const ThemeGlobalStyles = createGlobalStyle`${theme}`
 const BaseGlobalStyles = createGlobalStyle`${base}`
 const AppGlobalStyles = createGlobalStyle`${app}`
 
-export default () => (
+const Manifest = () => (
   <>
     <NormalizeGlobalStyles />
     <ThemeGlobalStyles />
@@ -23,3 +23,5 @@ export default () => (
     <AppGlobalStyles />
   </>
 )
+
+export default Manifest

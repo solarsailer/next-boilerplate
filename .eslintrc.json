@@ -1,0 +1,24 @@
+{
+  "extends": ["next/core-web-vitals", "standard"],
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "multiline-ternary": [
+      "error",
+      "never"
+    ],
+    "no-extra-boolean-cast": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off"
+  }
+}
