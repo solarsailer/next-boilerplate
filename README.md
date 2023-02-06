@@ -22,3 +22,4 @@ Boilerplate for a Next.js + styled-components website.
 
 - [Lodash](https://lodash.com/)
 - [date-fns](https://date-fns.org/)
+- [@sindresorhus/is](https://github.com/sindresorhus/is)
