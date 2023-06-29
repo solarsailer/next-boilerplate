@@ -22,12 +22,16 @@ const config = `{
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }`
 
@@ -38,7 +42,9 @@ const config = `{
 try {
   console.info('Enabling TypeScript…')
   writeFileSync(join(process.cwd(), 'tsconfig.json'), config)
-  execSync('npm install @types/node @types/react @types/react-dom typescript')
+  execSync(
+    'npm add --save-dev @types/node @types/react @types/react-dom @types/styled-components typescript'
+  )
   console.info('TypeScript successfully configured for this project!')
 } catch (e) {
   console.error('TypeScript configuration failed.')
