@@ -1,10 +1,10 @@
 import React from 'react'
 
 // -------------------------------------------------------------
-// Page.
+// Page: Index.
 // -------------------------------------------------------------
 
-const Index = () => {
+export default function Index() {
   return (
     <main role="main">
       <h1>Title</h1>
@@ -12,5 +12,3 @@ const Index = () => {
     </main>
   )
 }
-
-export default Index
