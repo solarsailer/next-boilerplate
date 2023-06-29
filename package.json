@@ -1,6 +1,6 @@
 {
   "name": "next-boilerplate",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Boilerplate for a Next.js + styled-components website.",
   "license": "MIT",
   "repository": "https://github.com/solarsailer/next-boilerplate",
@@ -14,19 +14,6 @@
     "prod": "next start -p 8000",
     "lint": "next lint"
   },
-  "babel": {
-    "presets": [
-      "next/babel"
-    ],
-    "plugins": [
-      [
-        "styled-components",
-        {
-          "ssr": true
-        }
-      ]
-    ]
-  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
@@ -35,16 +22,15 @@
     "arrowParens": "avoid"
   },
   "dependencies": {
-    "next": "^13.2.4",
+    "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.9"
+    "styled-components": "^6.0.1"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "eslint": "^8.36.0",
-    "eslint-config-next": "^13.2.4",
-    "eslint-config-standard": "^17.0.0",
-    "prettier": "^2.8.5"
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "eslint-config-standard": "^17.1.0",
+    "prettier": "^2.8.8"
   }
 }

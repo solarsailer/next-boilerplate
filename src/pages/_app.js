@@ -51,8 +51,8 @@ export default function App({Component, pageProps}) {
         <meta property="og:image:alt" content={description} />
         <meta property="og:type" content="website" />
       </Head>
-      <GlobalStyles />
       <ThemeProvider theme={theme}>
+        <GlobalStyles />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
